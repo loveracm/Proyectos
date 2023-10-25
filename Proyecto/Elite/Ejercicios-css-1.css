@@ -1,0 +1,22 @@
+body {
+    background-image: url(img/fondo\ css.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+.avatar{
+    text-align: center;
+}
+ P button {
+    text-decoration: none;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px 300px;
+  border-radius: 20px;
+  font-size: 16px;}
+
+p {
+    text-align: center;
+    margin: 50px;}

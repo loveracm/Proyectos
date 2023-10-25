@@ -1,0 +1,24 @@
+h1 button a {
+    background-color: transparent;
+    border: 20px solid #000000; 
+    color: #000000; 
+    padding: 50px 70px; 
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    background-image: url(img/Vieja.webp);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 5%;
+}
+
+body{
+    background-image: url(img/principal.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+}
