@@ -1,46 +1,74 @@
 body{
-background-image: url(IMG/fondo.jpg!d);/* Establece una imagen de fondo para el elemento "body" */
-background-repeat: no-repeat;/* Evita que la imagen de fondo se repita en la página */
-background-size: cover;/* Ajusta el tamaño de la imagen de fondo para cubrir completamente el elemento "body" */
+  background-image: url(IMG/fondo.jpg!d);/* Fondo de pantalla */
+    background-attachment: fixed;
+    background-size: cover; 
+    background-position: center center; 
 }
 .IMAGENES {
-    display: flex;/* Aplica un contenedor flexible a los elementos secundarios */
-    flex-wrap: wrap;/* Permite que los elementos secundarios se envuelvan (salten a la siguiente línea) si no caben en una sola fila */
-    justify-content: center;/* Alinea los elementos secundarios en el centro del contenedor horizontalmente */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .IMAGENES DIV {
-    display: inline-block;/* Establece que los elementos se mostrarán en línea, permitiendo que otros elementos estén en la misma línea */
-margin: 10px;/* Agrega un margen de 10 píxeles alrededor de los elementos */
-transition: transform 0.3s;/* Aplica una transición suave de 0.3 segundos a la propiedad 'transform' */
+     display: inline-block;
+     margin: 10px;
+     transition: transform 0.3s;
   }
 .IMAGENES DIV:hover {
-    transform: scale(1.2); /* Escala la imagen al 120% cuando se pasa el mouse sobre ella */
+    transform: scale(1.2); 
   }
 
 
   .centrado {
 
-   display: flex; /* Esto habilita un modelo de caja flexible para el elemento con la clase "centrado". 
-   Los elementos internos pueden ajustarse de manera flexible en relación con su contenedor.*/
-   justify-content: center; /*Esto centra el contenido horizontalmente a lo largo del eje principal del contenedor flexible.*/
-   align-items: center; /*Esto centra el contenido verticalmente a lo largo del eje transversal del contenedor flexible.*/
-
+   display: flex; 
+   justify-content: center; 
+   align-items: center; 
 }
 
-h1 {
-    text-align: center; /* Centra el texto horizontalmente dentro del elemento */
-    border: 2px dashed blueviolet; /* Simplifica la definición del borde y utiliza el mismo estilo en todos los lados */
-    border-radius: 50px; /* Aplica un radio de borde de 50 píxeles, creando esquinas redondeadas */
-    color: rgb(255, 255, 255); /* Establece el color del texto en blanco */
-    padding: 10px 18px; /* Agrega espacio de relleno interior alrededor del contenido del elemento */
-    font-family: Arial, Helvetica, sans-serif; /* Establece una fuente específica para el texto, en orden de preferencia */
-    background-color: black; /* Establece el color de fondo del elemento en negro */
-    width: 300px; /* Establece el ancho del elemento en 300 píxeles */
-    transition: transform 0.3s; /* Transición suave para todos los estilos */
+.cabeza{
+
+    position: fixed;
+    text-align: center;
+    border: 5px dashed rgb(255, 0, 0);
+    border-radius: 100px;
+    color: rgb(255, 0, 0);
+    padding: 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(2, 0, 0);
+    width: 50px;
+    transition: transform 0.3s;
+}
+
+
+h2 {
+    text-align: center; 
+    border: 2px dashed blueviolet; 
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    padding: 10px 18px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: black; 
+    width: 300px;
+    transition: transform 0.3s; 
   }
   
-  /* Estilos cuando el mouse pasa sobre el h1 */
-  h1:hover {
-    transform: scale(1.1); /* Aumenta el tamaño del texto al 110% cuando se pasa el mouse */
+  
+  h2:hover {
+    transform: scale(1.1); 
   }
   
+  h1 {
+    text-align: center;
+    border: 2px dashed rgb(128, 0, 255);
+    border-radius: 50px;
+    color: rgb(255, 0, 0);
+    padding: 10px 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    width: 300px;
+    transition: transform 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
